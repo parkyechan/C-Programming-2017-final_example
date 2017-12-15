@@ -1,7 +1,7 @@
 #include<cstdio>
 #define SIZE 10
 int main(){
-  int nums[size] = {0};
+  int nums[SIZE] = {0};
   int i;
   for(i = 0; i<SIZE; i++){
     printf("%d번째 정수 입력:\n", i+1);

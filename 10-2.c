@@ -4,9 +4,9 @@ int main(){
   int num;
   for(;;){
     printf("\nEnter the Number(if you wanna stop, enter the 0)>>");
-    scanf("%d");
+    scanf("%d", &num);
     if(num == 0) break;
-    else evan_odd(num);
+    else even_odd(num);
   }
   printf("End of Program.");
 }

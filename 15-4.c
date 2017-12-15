@@ -3,7 +3,7 @@ struct student{
   int number;
   char name;
   double grade;
-}
+};
 int main(){
   struct student s;
   printf("학번을 입력하시오:");

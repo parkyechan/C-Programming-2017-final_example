@@ -9,5 +9,6 @@ int main(){
   for(i = 1; i < 5; i++){
     if(num[i]>max)
       max = num[i];
-  printf("입력 값 중 가장 큰 수 = %d \n", max);
+    printf("입력 값 중 가장 큰 수 = %d \n", max);
+  }
 }

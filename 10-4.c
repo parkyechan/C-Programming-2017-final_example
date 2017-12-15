@@ -14,8 +14,8 @@ int main(){
     if(user_input == 0) break;
 
     printf("컴퓨터가 생성한 수는 %d 입니다.\n", num);
-    if(num % 2 == 1 &7 user_input == 1)
-      printf("정답인디ㅏ.\n");
+    if(num % 2 == 1 & user_input == 1)
+      printf("정답입니다.\n");
     else if(num % 2 == 0 && user_input == 2)
       printf("정다입니다.\n");
     else
